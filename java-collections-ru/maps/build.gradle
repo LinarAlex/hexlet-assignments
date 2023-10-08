@@ -39,4 +39,3 @@ task checkExercises (type: Checkstyle) {
     classpath = files()
   }
 }
-
