@@ -30,7 +30,7 @@ class FileKVTest {
 
     // BEGIN
     @Test
-    void FileKV() {
+    public void FileKV() {
         String path = "src/test/resources/file";
         KeyValueStorage storage = new FileKV(path, Map.of("key", "value"));
         assertThat(storage.get("key", "value")).isEqualTo("value");

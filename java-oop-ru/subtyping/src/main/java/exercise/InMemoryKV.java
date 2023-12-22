@@ -7,7 +7,7 @@ import java.util.HashMap;
 public class InMemoryKV implements KeyValueStorage {
     private final Map<String, String> storage = new HashMap<>();
 
-    public InMemoryKV(Map<String,String> storage) {
+    public InMemoryKV(Map<String, String> storage) {
         this.storage.putAll(storage);
     }
 
@@ -24,7 +24,7 @@ public class InMemoryKV implements KeyValueStorage {
     @Override
     public String get(String key, String defaultValue) {
         if (storage.containsKey(key)) {
-            return key;
+            return storage.get(key);
         } else {
             return defaultValue;
         }
