@@ -8,7 +8,7 @@ import java.util.Map;
 
 // BEGIN
 public class Validator {
-    
+
     public static List<String> validate(Address address) {
         List<String> nullList = new ArrayList<>();
         for (Field field : address.getClass().getDeclaredFields()) {

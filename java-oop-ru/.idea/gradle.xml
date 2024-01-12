@@ -13,6 +13,24 @@
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/code-generation" />
+        <option name="gradleJvm" value="20" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/code-generation" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/errors" />
+        <option name="gradleJvm" value="20" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/errors" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/inheritance" />
         <option name="gradleJvm" value="20" />
         <option name="modules">
@@ -36,6 +54,15 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/patterns" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/reflections" />
+        <option name="gradleJvm" value="20" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/reflections" />
           </set>
         </option>
       </GradleProjectSettings>
