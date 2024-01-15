@@ -14,7 +14,7 @@ public class App {
 
     public static Car extract(Path path) throws IOException {
         String result = Files.readString(path);
-        return Car.unserialize(result); 
+        return Car.unserialize(result);
     }
 }
 // END
